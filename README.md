@@ -1,6 +1,6 @@
 CODING ADVENTURE
 
 1.  ¿Cuándo tengo que usar useCallback()?
-    -Utilizo el hook useCallback() cuando quiero que la callback se ejecute una vez.
-    Utilizamos este hook de react para evitar rerenders especificos y nos permite memoizar la funcion.
-    De esta manera no es una funcion que realmente genere una optimizacion significa, pero si evita loops que suceden en ciertos casos con react.
+    -Utilizo el hook useCallback() cuando quiero que una funcion sea memoizada.
+    La utlizo cuando la funcion declarada dentro de la callback esta dentro del array de depedencias de otro hook.
+    Para asi evitar loops.
