@@ -4,7 +4,6 @@ import "@fontsource/oxanium";
 const StyledCounterBack = styled.div`
   font-family: oxanium;
   background-color: #243342;
-  font-size: 36px;
 
   ul {
     list-style-type: none;
@@ -12,7 +11,8 @@ const StyledCounterBack = styled.div`
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 5%;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 50vh;
@@ -31,9 +31,11 @@ const StyledCounterBack = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 36px;
   }
   .counter-list__word {
     color: #e8eef1;
+    font-size: 20px;
   }
 `;
 
