@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import CounterBack from "../CounterBack/CounterBack";
 import Header from "../Header/Header";
 
 const StyledContainer = styled.div`
@@ -11,6 +12,7 @@ const Layout = (): JSX.Element => {
   return (
     <StyledContainer>
       <Header />
+      <CounterBack />
     </StyledContainer>
   );
 };
