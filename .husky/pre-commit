@@ -12,7 +12,7 @@ FILES_PATTERN='\.(js|ts)(\..+)?$'
 FORBIDDEN='console\.[clear|dir|log|info|warn|error]'
 
 #check for console. references in your code
-
+ 
 if git diff --cached --name-only | \
     grep -E $FILES_PATTERN | \
     xargs grep --with-filename -n $FORBIDDEN | \
