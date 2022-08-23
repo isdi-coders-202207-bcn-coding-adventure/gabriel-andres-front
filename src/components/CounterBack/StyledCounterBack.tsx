@@ -16,26 +16,26 @@ const StyledCounterBack = styled.div`
     align-items: center;
     width: 100%;
     height: 50vh;
-  }
-  li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .counter-list__number {
-    background-color: #ffc700;
-    color: #243342;
-    border-radius: 30%;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px;
-  }
-  .counter-list__word {
-    color: #e8eef1;
-    font-size: 20px;
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .counter-list__number {
+      background-color: #ffc700;
+      color: #243342;
+      border-radius: 30%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+    .counter-list__word {
+      color: #e8eef1;
+      font-size: 20px;
+    }
   }
 `;
 
