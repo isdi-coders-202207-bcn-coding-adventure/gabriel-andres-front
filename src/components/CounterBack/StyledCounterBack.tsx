@@ -21,20 +21,22 @@ const StyledCounterBack = styled.div`
       flex-direction: column;
       align-items: center;
     }
-    .counter-list__number {
-      background-color: #ffc700;
-      color: #243342;
-      border-radius: 30%;
-      width: 100px;
-      height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 36px;
-    }
-    .counter-list__word {
-      color: #e8eef1;
-      font-size: 20px;
+    .counter-list {
+      &__number {
+        background-color: #ffc700;
+        color: #243342;
+        border-radius: 30%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 36px;
+      }
+      &__word {
+        color: #e8eef1;
+        font-size: 20px;
+      }
     }
   }
 `;
